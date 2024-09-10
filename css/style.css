@@ -1,0 +1,194 @@
+.sawarabi-mincho-regular {
+    font-family: "Sawarabi Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.suse {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #AF8260;
+}
+
+nav {
+    background-color: #A04747;
+    border-style: solid;
+    border-width: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #9b2778;
+}
+
+footer {
+    background-color: #E85C0D;
+    border-style: solid;
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 0px 20px 10px;
+    border-style: solid;
+}
+
+.splash {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/029/825/198/large_2x/a-japanese-art-illustration-background-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+} 
+
+.splash h1{
+    color: #333;
+    font-family: Sawarabi Mincho, sans-serif;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+.splash img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.splash p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 5px 0;
+    color: #333;
+    justify-content: space-around;
+}
+
+.splash.splashInfo {
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-container section {
+    background: #F2E8C6;
+    padding: 20px;
+    border-radius: 8px;
+    border-style: solid;
+    box-shadow: 0 15px 20px #C75B7A;
+    font-family: SUSE, sans-serif;
+}
+
+.grid-container h2 {
+    margin-top: 0;
+    font-family: Sawarabi Mincho, sans-serif;
+    text-decoration: underline;
+    color: #333;
+}
+
+.grid-container p {
+    font-family: SUSE, sans-serif;
+}
+
+.grid-container ul,
+.grid-container dl {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: SUSE, sans-serif;
+}
+
+.grid-container dt {
+    font-weight: bold;
+    font-family: SUSE, sans-serif;
+}
+
+.grid-container dd {
+    margin: 0 0 10px 0;
+    font-family: SUSE, sans-serif;
+}
+
+.projects h2 {
+    font-family: Sawarabi Mincho, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.grid-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.div img {
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.grid-projects h3{
+    font-family: Sawarabi Mincho, sans-serif;
+    text-decoration: underline;
+
+}
+
+.grid-projects div {
+    padding: 20px;
+    border-style: solid;
+    background: #FF885B;
+    border-radius: 8px;
+    box-shadow: 0 15px 20px #C75B7A;
+    font-family: SUSE, sans-serif;
+}
+
+.one-col {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one-col input, .one-col textarea {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.one-col label {
+    width: 100%;
+    max-width: 500px;
+}
+
+.one.col input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+}
+
+.contact h1{
+    font-family: Sawarabi Mincho, sans-serif;
+}
+
+.contact p{
+    font-family: SUSE, sans-serif;
+}
